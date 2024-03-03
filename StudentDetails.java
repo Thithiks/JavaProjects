@@ -38,7 +38,7 @@ Scanner sc=new Scanner(System.in);
 System.out.println("_____Welcome to Student info:______"); 
 int op=1;
 while(op!=0){
-       System.out.println("Enter your Option:\n1.Create\n2.View\n3.Edit\n4.Exit");
+       System.out.println("Enter your Option:\n1.Create\n2.View\n3.Edit\n4.Exit-Enter 0");
         op=sc.nextInt();
     if(op==1){
             System.out.print("Enter number of Students:");
